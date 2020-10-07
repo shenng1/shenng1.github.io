@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.crazy {
+	position: absolute;
+  z-index: 3;
+  top: 1;
+  left: 0;
+  right: 0;
+  float: left;
+	margin-top: 35px;
+
+
+}
+.block2 {
+	background-color: #C0C0C0
+}
+.tio1 {
+	background-color: #C0C0C0
+}
+.tio2 {
+	background-color: #C0C0C0
+}
+
+#particles-js{
+	position: relative;
+	height: 100vh;
+	background-color: #000000;
+	background-attachment: fixed;
+}
