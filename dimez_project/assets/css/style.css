@@ -1,31 +1,292 @@
+/*  */
 *{
 	margin: 0;
 	padding: 0;
 }
-.crazy {
-	position: absolute;
-  z-index: 3;
-  top: 1;
+/* Первичный общий блок (Блоки 1-6) */
+.primary {
+	position: absolute; /* Для отображения заднего фона */
+  z-index: 1;
   left: 0;
   right: 0;
-  float: left;
-	margin-top: 35px;
-
-
+	color: #FFFFFF;
+	height: 100%;
 }
-.block2 {
-	background-color: #C0C0C0
+/* Вторичный общий блок (Блоки 1-5) */
+.secondary {
+	display: block;
+	justify-content: space-around;
 }
+/* Отдельные блоки 1, 2-3, 4-5, 6 */
+.block_Vanguard, .block_Rearguard, .secondary, .block_6{
+	margin-top: 58px;
+}
+/* Блок 1 (Титульная) */
+.block_1{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* Уникальный знак сайта */
+#unique_site_mark{
+	height: auto;
+	margin-left: 3%;
+	z-index: 3;
+	width: auto;
+	border: 3px;
+	background-color: #FF6766;
+	border-radius: 15px;
+}
+/* Титулка 0 */
+.tio0 {
+	position: absolute;
+	width: 100%;
+	margin-top: auto;
+  margin-bottom: auto;
+	z-index: 2;
+	background-color: #333333;
+	border-top: 3px solid #FF6766;
+	border-bottom: 3px solid #FF6766;
+}
+/* Титулка 1 */
 .tio1 {
-	background-color: #C0C0C0
+	background-color: #333333;
 }
+/* Титулка 2 */
 .tio2 {
-	background-color: #C0C0C0
+	background-color: #333333;
+}
+/* Глобальные кнопки */
+#button_123{
+	z-index: 3;
+	display: flex;
+}
+#language, #sound, #topic{
+	margin-top: 1px;
+	height: 59px;
+	width: 87px;
+	background-color: #39BD72;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+}
+#language{border-right: 1px solid #FFFFFF;}
+#sound{border-right: 1px solid #FFFFFF;}
+#topic{margin-right: 40px;}
+/* Передовой фронт (Блоки 2-5) */
+.forefront {
+	display: block;
+	align-items: space-around;
+}
+/* Блок A Авангард (Блоки 2-3) */
+.block_Vanguard{
+	max-height: 600px;
+	display: flex;
+	justify-content: space-around;
+}
+/* Блок 2 */
+.block_2 {
+	background-color: #333333;
+	width: 45%;
+	height: 550px;
+  border: 3px;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 50px;
+	transition: background-color 1s linear;
+	box-shadow:0 0 15px #000;
 }
 
-#particles-js{
-	position: relative;
-	height: 100vh;
-	background-color: #000000;
-	background-attachment: fixed;
+/* Вариант ввода 1 Блок 2 */
+.intup_2{
 }
+/* Рисунок 1,2 (Отображение проблемной части от ввода) */
+#drawing_Z1 {
+	display: flex;
+	justify-content: space-around;
+	height: 130px;
+	padding: 10px;
+}
+/*  */
+.limd1{
+
+}
+.drawing_1 {
+	height: auto;
+	width: auto;
+}
+.drawing_2 {
+	height: auto;
+	width: auto;
+}
+/* Предложение 1 */
+.block_Z{
+	display: block;
+	margin-top: 10px;
+	height: auto;
+	width: auto;
+}
+/* Блок 3 */
+.block_3 {
+	background-color: #333333;
+	width: 45%;
+	height: 550px;
+  border: 3px;
+	display: block;
+	border-radius: 50px;
+	transition: background-color 1s linear;
+	box-shadow:0 0 15px #000;
+}
+/* Рисунки 3шт  Блок 3 */
+#drawing_Z2 {
+	display: flex;
+	justify-content: space-around;
+	height: 130px;
+	padding: 10px;
+}
+/* Текст вывода  Блок 3 */
+#input_3{
+	display: block;
+}
+/*.drawing_3 {
+	left: 5%;
+	height:auto;
+	width:auto;
+	position: absolute;
+}
+.drawing_4 {
+	left: 50%;
+	height:auto;
+	width:auto;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+.drawing_5 {
+	right: 5%;
+	height:auto;
+	width:auto;
+	position: absolute;
+}*/
+/* Блок B Арьергард (Блоки 4-5) */
+.block_Rearguard{
+	max-height: 600px;
+  border: 3px;
+	display: flex;
+	justify-content: space-around;
+}
+/* Блок 4 */
+.block_4 {
+	background-color: #333333;
+	width: 45%;
+	height: 550px;
+  border: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 50px;
+	transition: background-color 1s linear;
+	box-shadow:0 0 15px #000;
+}
+/* Класс 1 (Кожа, мышцы, органы) Блок 4 */
+#drawing_Z4_1{
+	display: flex;
+	justify-content: space-around;
+}
+/* Класс 2 (Кровь, Нервы, Кости) Блок 4 */
+#drawing_Z4_2{
+	display: flex;
+	justify-content: space-around;
+}
+/* Блок 5 */
+.block_5 {
+	background-color: #333333;
+	width: 45%;
+	height: 550px;
+  border: 3px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 50px;
+	transition: background-color 1s linear;
+	box-shadow:0 0 15px #000;
+}
+/* Рисунки вывод Блок 5  */
+#drawing_Z5{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/* Текст вывода Блок 5 */
+.input_5{
+	height: 60px;
+	border: none;
+	font-size: 600 px;
+	outline: none;
+	text-aligh: right;
+}
+/* Блок 6 */
+.block_6 {
+	background-color: #333333;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	border-top: 3px solid #FF6766;
+}
+/* Класс 1 (Информация о сайте) */
+#іnfo_1{
+	display: flex;
+
+}
+.info_11 {
+
+}
+.info_12 {
+
+}
+/* Класс 2 (Реклама) Блок 6  */
+#advertising{
+	display: flex;
+	justify-content: space-around;
+}
+/* Текст */
+.block_2 p {
+	margin-left: 15px;
+}
+.p_6 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/* Анимация Блоков 2,3,4,5 */
+.block_2:hover, .block_3:hover, .block_4:hover, .block_5:hover {
+  background-color: #444444;
+}
+input {
+	background-color: #222222;
+	color: #FFFFFF;
+}
+/* Задний фон  */
+#particles-js{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-color: #222222;
+	/*
+	background: rgb(214,249,255);
+	background: -moz-linear-gradient(-45deg,  rgba(214,249,255,1) 0%, rgba(0,204,249,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(214,249,255,1) 0%,rgba(0,204,249,1) 100%);
+	background: linear-gradient(135deg,  rgba(214,249,255,1) 0%,rgba(0,204,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#00ccf9',GradientType=1 );
+	*/
+}
+/*
+input {
+	width: 100%;
+	height: 60px;
+	border: none;
+	font-size: 600 px;
+	outline: none;
+	text-aligh: right;
+}*/
