@@ -1,9 +1,0 @@
-1)
-
-limb     -  Конечность
-leather  -  Кожа
-muscle   -  Мышцы
-organs   -  Органы
-blood    -  Кровь
-nerves   -  Нервы
-bones    -  Кости
