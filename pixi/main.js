@@ -1,28 +1,6 @@
 const app = new PIXI.Application({ backgroundColor: 0x1099bb });
 document.body.appendChild(app.view);
 
-const basicTextStyle = new PIXI.TextStyle({
-  fontFamily: 'Arial',
-  fontSize: 36,
-  fontStyle: 'italic',
-  fontWeight: 'bold',
-  fill: ['#ffffff', '#00ff99'], // gradient
-  stroke: '#4a1850',
-  strokeThickness: 5,
-  dropShadow: true,
-  dropShadowColor: '#000000',
-  dropShadowBlur: 4,
-  dropShadowAngle: Math.PI / 6,
-  dropShadowDistance: 6,
-  wordWrap: true,
-  wordWrapWidth: 440,
-  lineJoin: 'round'
-});
-const basicText = new PIXI.Text('Кликай, чтоб переродить Балашова', basicTextStyle);
-basicText.x = 50;
-basicText.y = 50;
-app.stage.addChild(basicText);
-
 // Scale mode for all textures, will retain pixelation
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
@@ -72,3 +50,25 @@ function onClick() {
 
 
 
+
+const basicTextStyle = new PIXI.TextStyle({
+  fontFamily: 'Arial',
+  fontSize: 36,
+  fontStyle: 'italic',
+  fontWeight: 'bold',
+  fill: ['#ffffff', '#00ff99'], // gradient
+  stroke: '#4a1850',
+  strokeThickness: 5,
+  dropShadow: true,
+  dropShadowColor: '#000000',
+  dropShadowBlur: 4,
+  dropShadowAngle: Math.PI / 6,
+  dropShadowDistance: 6,
+  wordWrap: true,
+  wordWrapWidth: 440,
+  lineJoin: 'round'
+});
+const basicText = new PIXI.Text('Кликай, чтоб переродить Балашова', basicTextStyle);
+basicText.x = 50;
+basicText.y = 50;
+app.stage.addChild(basicText);
