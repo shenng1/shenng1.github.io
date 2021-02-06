@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/komunation/static/css/main.dfd4fdaf.chunk.css",
-    "main.js": "/komunation/static/js/main.f2fe5885.chunk.js",
-    "main.js.map": "/komunation/static/js/main.f2fe5885.chunk.js.map",
+    "main.js": "/komunation/static/js/main.da30056a.chunk.js",
+    "main.js.map": "/komunation/static/js/main.da30056a.chunk.js.map",
     "runtime-main.js": "/komunation/static/js/runtime-main.41768bce.js",
     "runtime-main.js.map": "/komunation/static/js/runtime-main.41768bce.js.map",
-    "static/js/2.dc242474.chunk.js": "/komunation/static/js/2.dc242474.chunk.js",
-    "static/js/2.dc242474.chunk.js.map": "/komunation/static/js/2.dc242474.chunk.js.map",
+    "static/js/2.57333cca.chunk.js": "/komunation/static/js/2.57333cca.chunk.js",
+    "static/js/2.57333cca.chunk.js.map": "/komunation/static/js/2.57333cca.chunk.js.map",
     "static/js/3.47b62c2c.chunk.js": "/komunation/static/js/3.47b62c2c.chunk.js",
     "static/js/3.47b62c2c.chunk.js.map": "/komunation/static/js/3.47b62c2c.chunk.js.map",
     "index.html": "/komunation/index.html",
     "static/css/main.dfd4fdaf.chunk.css.map": "/komunation/static/css/main.dfd4fdaf.chunk.css.map",
-    "static/js/2.dc242474.chunk.js.LICENSE.txt": "/komunation/static/js/2.dc242474.chunk.js.LICENSE.txt",
+    "static/js/2.57333cca.chunk.js.LICENSE.txt": "/komunation/static/js/2.57333cca.chunk.js.LICENSE.txt",
     "static/media/logo.e943b7aa.png": "/komunation/static/media/logo.e943b7aa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.41768bce.js",
-    "static/js/2.dc242474.chunk.js",
+    "static/js/2.57333cca.chunk.js",
     "static/css/main.dfd4fdaf.chunk.css",
-    "static/js/main.f2fe5885.chunk.js"
+    "static/js/main.da30056a.chunk.js"
   ]
 }
