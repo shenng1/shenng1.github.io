@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/komunation/static/css/main.1db74a93.chunk.css",
-    "main.js": "/komunation/static/js/main.c0c71f64.chunk.js",
-    "main.js.map": "/komunation/static/js/main.c0c71f64.chunk.js.map",
+    "main.css": "/komunation/static/css/main.683de220.chunk.css",
+    "main.js": "/komunation/static/js/main.968d2eee.chunk.js",
+    "main.js.map": "/komunation/static/js/main.968d2eee.chunk.js.map",
     "runtime-main.js": "/komunation/static/js/runtime-main.871e9d96.js",
     "runtime-main.js.map": "/komunation/static/js/runtime-main.871e9d96.js.map",
     "static/js/2.4ad788ec.chunk.js": "/komunation/static/js/2.4ad788ec.chunk.js",
@@ -10,15 +10,15 @@
     "static/js/3.2aaf2a5f.chunk.js": "/komunation/static/js/3.2aaf2a5f.chunk.js",
     "static/js/3.2aaf2a5f.chunk.js.map": "/komunation/static/js/3.2aaf2a5f.chunk.js.map",
     "index.html": "/komunation/index.html",
-    "static/css/main.1db74a93.chunk.css.map": "/komunation/static/css/main.1db74a93.chunk.css.map",
+    "static/css/main.683de220.chunk.css.map": "/komunation/static/css/main.683de220.chunk.css.map",
     "static/js/2.4ad788ec.chunk.js.LICENSE.txt": "/komunation/static/js/2.4ad788ec.chunk.js.LICENSE.txt",
-    "static/media/dinDon.9a08fb76.svg": "/komunation/static/media/dinDon.9a08fb76.svg",
-    "static/media/logo.e943b7aa.png": "/komunation/static/media/logo.e943b7aa.png"
+    "static/media/Bored.508cb39e.svg": "/komunation/static/media/Bored.508cb39e.svg",
+    "static/media/dinDon.9a08fb76.svg": "/komunation/static/media/dinDon.9a08fb76.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.871e9d96.js",
     "static/js/2.4ad788ec.chunk.js",
-    "static/css/main.1db74a93.chunk.css",
-    "static/js/main.c0c71f64.chunk.js"
+    "static/css/main.683de220.chunk.css",
+    "static/js/main.968d2eee.chunk.js"
   ]
 }
