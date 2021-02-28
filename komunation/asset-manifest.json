@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/komunation/static/css/main.5f05f196.chunk.css",
-    "main.js": "/komunation/static/js/main.02aba0e1.chunk.js",
-    "main.js.map": "/komunation/static/js/main.02aba0e1.chunk.js.map",
-    "runtime-main.js": "/komunation/static/js/runtime-main.7b74c62c.js",
-    "runtime-main.js.map": "/komunation/static/js/runtime-main.7b74c62c.js.map",
-    "static/js/2.46b3e3f8.chunk.js": "/komunation/static/js/2.46b3e3f8.chunk.js",
-    "static/js/2.46b3e3f8.chunk.js.map": "/komunation/static/js/2.46b3e3f8.chunk.js.map",
-    "static/js/3.3080fb78.chunk.js": "/komunation/static/js/3.3080fb78.chunk.js",
-    "static/js/3.3080fb78.chunk.js.map": "/komunation/static/js/3.3080fb78.chunk.js.map",
+    "main.css": "/komunation/static/css/main.db2b68b3.chunk.css",
+    "main.js": "/komunation/static/js/main.75eb44cc.chunk.js",
+    "main.js.map": "/komunation/static/js/main.75eb44cc.chunk.js.map",
+    "runtime-main.js": "/komunation/static/js/runtime-main.46da998c.js",
+    "runtime-main.js.map": "/komunation/static/js/runtime-main.46da998c.js.map",
+    "static/js/2.63798826.chunk.js": "/komunation/static/js/2.63798826.chunk.js",
+    "static/js/2.63798826.chunk.js.map": "/komunation/static/js/2.63798826.chunk.js.map",
+    "static/js/3.8924a108.chunk.js": "/komunation/static/js/3.8924a108.chunk.js",
+    "static/js/3.8924a108.chunk.js.map": "/komunation/static/js/3.8924a108.chunk.js.map",
     "index.html": "/komunation/index.html",
-    "static/css/main.5f05f196.chunk.css.map": "/komunation/static/css/main.5f05f196.chunk.css.map",
-    "static/js/2.46b3e3f8.chunk.js.LICENSE.txt": "/komunation/static/js/2.46b3e3f8.chunk.js.LICENSE.txt",
+    "static/css/main.db2b68b3.chunk.css.map": "/komunation/static/css/main.db2b68b3.chunk.css.map",
+    "static/js/2.63798826.chunk.js.LICENSE.txt": "/komunation/static/js/2.63798826.chunk.js.LICENSE.txt",
     "static/media/Bored.508cb39e.svg": "/komunation/static/media/Bored.508cb39e.svg",
     "static/media/archive.e4003703.svg": "/komunation/static/media/archive.e4003703.svg",
     "static/media/dinDon.03d36c1f.svg": "/komunation/static/media/dinDon.03d36c1f.svg",
@@ -20,9 +20,9 @@
     "static/media/renew.f1e204ff.svg": "/komunation/static/media/renew.f1e204ff.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b74c62c.js",
-    "static/js/2.46b3e3f8.chunk.js",
-    "static/css/main.5f05f196.chunk.css",
-    "static/js/main.02aba0e1.chunk.js"
+    "static/js/runtime-main.46da998c.js",
+    "static/js/2.63798826.chunk.js",
+    "static/css/main.db2b68b3.chunk.css",
+    "static/js/main.75eb44cc.chunk.js"
   ]
 }
