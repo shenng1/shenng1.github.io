@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./mono_timer/static/css/main.4fbb4699.chunk.css",
-    "main.js": "./mono_timer/static/js/main.e29391b9.chunk.js",
-    "main.js.map": "./mono_timer/static/js/main.e29391b9.chunk.js.map",
-    "runtime-main.js": "./mono_timer/static/js/runtime-main.48b64f9e.js",
-    "runtime-main.js.map": "./mono_timer/static/js/runtime-main.48b64f9e.js.map",
-    "static/css/2.09ae8418.chunk.css": "./mono_timer/static/css/2.09ae8418.chunk.css",
-    "static/js/2.a4b9fe95.chunk.js": "./mono_timer/static/js/2.a4b9fe95.chunk.js",
-    "static/js/2.a4b9fe95.chunk.js.map": "./mono_timer/static/js/2.a4b9fe95.chunk.js.map",
+    "main.css": "./static/css/main.4fbb4699.chunk.css",
+    "main.js": "./static/js/main.e29391b9.chunk.js",
+    "main.js.map": "./static/js/main.e29391b9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.48b64f9e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.48b64f9e.js.map",
+    "static/css/2.09ae8418.chunk.css": "./static/css/2.09ae8418.chunk.css",
+    "static/js/2.a4b9fe95.chunk.js": "./static/js/2.a4b9fe95.chunk.js",
+    "static/js/2.a4b9fe95.chunk.js.map": "./static/js/2.a4b9fe95.chunk.js.map",
     "index.html": "./mono_timer/index.html",
-    "precache-manifest.d6c9b430ad7f384f4488aa46eb1ee449.js": "./mono_timer/precache-manifest.d6c9b430ad7f384f4488aa46eb1ee449.js",
-    "service-worker.js": "./mono_timer/service-worker.js",
-    "static/css/2.09ae8418.chunk.css.map": "./mono_timer/static/css/2.09ae8418.chunk.css.map",
-    "static/css/main.4fbb4699.chunk.css.map": "./mono_timer/static/css/main.4fbb4699.chunk.css.map",
-    "static/media/logo.svg": "./mono_timer/static/media/logo.043a9598.svg"
+    "precache-manifest.d6c9b430ad7f384f4488aa46eb1ee449.js": "./precache-manifest.d6c9b430ad7f384f4488aa46eb1ee449.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.09ae8418.chunk.css.map": "./static/css/2.09ae8418.chunk.css.map",
+    "static/css/main.4fbb4699.chunk.css.map": "./static/css/main.4fbb4699.chunk.css.map",
+    "static/media/logo.svg": "./static/media/logo.043a9598.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.48b64f9e.js",
