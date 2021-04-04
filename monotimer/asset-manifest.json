@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/monotimer/static/css/main.4fbb4699.chunk.css",
+    "main.js": "/monotimer/static/js/main.dd642538.chunk.js",
+    "main.js.map": "/monotimer/static/js/main.dd642538.chunk.js.map",
+    "runtime-main.js": "/monotimer/static/js/runtime-main.26b5ed18.js",
+    "runtime-main.js.map": "/monotimer/static/js/runtime-main.26b5ed18.js.map",
+    "static/css/2.09ae8418.chunk.css": "/monotimer/static/css/2.09ae8418.chunk.css",
+    "static/js/2.a4b9fe95.chunk.js": "/monotimer/static/js/2.a4b9fe95.chunk.js",
+    "static/js/2.a4b9fe95.chunk.js.map": "/monotimer/static/js/2.a4b9fe95.chunk.js.map",
+    "index.html": "/monotimer/index.html",
+    "precache-manifest.ddb61c708c0fa7cbbe1ac67650ed5c38.js": "/monotimer/precache-manifest.ddb61c708c0fa7cbbe1ac67650ed5c38.js",
+    "service-worker.js": "/monotimer/service-worker.js",
+    "static/css/2.09ae8418.chunk.css.map": "/monotimer/static/css/2.09ae8418.chunk.css.map",
+    "static/css/main.4fbb4699.chunk.css.map": "/monotimer/static/css/main.4fbb4699.chunk.css.map",
+    "static/media/logo.svg": "/monotimer/static/media/logo.043a9598.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26b5ed18.js",
+    "static/css/2.09ae8418.chunk.css",
+    "static/js/2.a4b9fe95.chunk.js",
+    "static/css/main.4fbb4699.chunk.css",
+    "static/js/main.dd642538.chunk.js"
+  ]
+}
