@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <script
+      src="https://unpkg.com/react@latest/umd/react.development.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
+    <script
+      src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/babel-standalone@latest/babel.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fonts to support Material Design -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Icons to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <style>
+      .row { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      button.icon_btn:hover {
+        background-color: rgb(197, 210, 232);
+      }
+    </style>
+    <script type="text/babel">
+      const map = `https://i2.paste.pics/b51600b700176025d1425e3e7caa0700.png?trs=ed138b292f6abcb553b220004ca553b6b0ff1416ae92629d62e14e64dfac5cba`;
+      const btns = [{
+        label: 'Недобудова жк Еврика',
+        description: 'Недобудова жк Еврика',
+        top: 207,
+        left: 129,
+        pic: 'https://i2.paste.pics/5bc2eda3cf53d3bbc6106378d28a2787.png?trs=ed138b292f6abcb553b220004ca553b6b0ff1416ae92629d62e14e64dfac5cba',
+      }];
+
+      const {
+        colors,
+        CssBaseline,
+        ThemeProvider,
+        Typography,
+        Container,
+        createTheme,
+        Box,
+        SvgIcon,
+        IconButton,
+        Link,
+        Modal,
+        Avatar,
+      } = MaterialUI;
+
+      // Create a theme instance.
+      const theme = createTheme({
+        palette: {
+          primary: {
+            main: '#556cd6',
+          },
+          secondary: {
+            main: '#19857b',
+          },
+          error: {
+            main: colors.red.A400,
+          },
+        },
+      });
+
+      function LightBulbIcon(props) {
+        return (
+          <SvgIcon {...props}>
+            <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6C7.8 12.16 7 10.63 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z" />
+          </SvgIcon>
+        );
+      }
+
+      function ProTip() {
+        return (
+          <Typography sx={{ mt: 6, mb: 3 }} color="text.secondary">
+            <LightBulbIcon sx={{ mr: 1, verticalAlign: 'top' }} />
+            Pro tip: See more{' '}
+            <Link href="https://mui.com/getting-started/templates/">templates</Link> on the MUI
+            documentation.
+          </Typography>
+        );
+      }
+
+      function BtnsList({setModal}) {
+        return (
+          <div style={{ position: 'absolute', top: 0 }}>1
+            {btns.map((i, index) => (
+              <IconButton 
+                key={index}
+                onClick={() => setModal(i) }
+                className="icon_btn"
+                style={{ top: i.top, left: i.left, }}
+              > 
+                <LightBulbIcon fill="#19857b" />
+              </IconButton>
+            ))}
+          </div>
+        );
+      }
+
+      function App() {
+        const [modal, setModal] = React.useState();
+
+        return (
+          <Container maxWidth="md">
+            <Box sx={{ my: 4 }} style={{ margin: 0 }}>
+              <img 
+                src={map}
+                style={{
+                  width: '100%',
+                }}
+              />
+            </Box>
+            <BtnsList setModal={setModal} />
+            {
+              !!modal &&
+                <Modal
+                  open
+                  onClose={() => setModal()}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        width: 400,
+                        bgcolor: 'background.paper',
+                        border: '2px solid #000',
+                        boxShadow: 24,
+                        p: 4,
+                      }}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                      {modal.label}
+                    </Typography>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      {modal.description}
+                    </Typography>
+                    <img src={modal.pic} style={{ width: '100%' }} />
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                      Відповидальний за вирішення: 
+                    </Typography>
+                    <a href="https://transformation.org.ua/" className="row" style={{ paddingTop: '6px' }}>
+                      <Avatar
+                        alt="Офіс трансформації"
+                        src="https://i2.paste.pics/d08f79044256fd311514eb108e09489a.png?trs=ed138b292f6abcb553b220004ca553b6b0ff1416ae92629d62e14e64dfac5cba"
+                        sx={{ width: 56, height: 56, marginRight: '12px' }}
+                      />  
+                      Офіс трансформації
+                    </a>
+                  </Box>
+                </Modal>
+            }
+
+          </Container>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(
+        <ThemeProvider theme={theme}>
+          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+          <CssBaseline />
+          <App />
+        </ThemeProvider>,
+      );
+    </script>
+  </body>
+</html>
